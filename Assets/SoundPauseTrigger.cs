@@ -7,7 +7,7 @@ public class SoundPauseTrigger : MonoBehaviour
     public AudioSource soundtrack;
     // Start is called before the first frame update
     
-    private void  OnTriggerEnter(Collider other)
+    private void OnTriggerEnter(Collider other)
     {
         if(soundtrack.isPlaying)
         {
